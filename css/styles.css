@@ -12,3 +12,7 @@ h1 {
 /*
 font-family: 'Ubuntu', sans-serif;
 */
+
+.container-fluid {
+    padding: 3% 15%;
+}
