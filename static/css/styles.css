@@ -1,7 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+/****************************************************************************
 
+    <section id="title">
+
+******************************************************************************/
 #title {
     background-color: #ff4c68;
     color: #fff;
@@ -49,4 +53,40 @@ h1 {
     width: 60%;
     transform: rotate(25deg);
 }
+/****************************************************************************
 
+    </section id="title">
+
+******************************************************************************/
+/****************************************************************************
+
+    <section id="features">
+
+******************************************************************************/
+#features {
+    margin: 100px 0;
+}
+
+#features h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+#features i {
+    color: red;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+#features div div {
+    text-align: center;
+}
