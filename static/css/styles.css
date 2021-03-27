@@ -28,9 +28,15 @@ h1 {
     padding: 0 0 4.5rem;
 }
 
+.navbar-toggler-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size: calc(100% + 1.5vw + 1.5vh);
     font-weight: bold;
 }
 
@@ -39,7 +45,8 @@ h1 {
 }
 
 .nav-link {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    font-size: calc(100% + 1.5vw + 1.5vh);
 }
 
 /* download buttons */
