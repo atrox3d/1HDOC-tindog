@@ -64,29 +64,38 @@ h1 {
 
 ******************************************************************************/
 #features {
-    margin: 100px 0;
+    /* margin: 100px 0; */
+    padding: 7% 15%;
 }
 
-#features h3 {
+/*
+#features div div {
+    text-align: center;
+}
+*/
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/* .feature-box */
+h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
 }
 
-#features p {
+/* #features */
+p {
     color: #8f8f8f;
 }
 
-#features i {
-    color: red;
-    font-size: 3.5rem;
-    line-height: 1.5;
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
 }
 
-#features i:hover {
+.icon:hover {
     color: #ff4c68;
-}
-
-#features div div {
-    text-align: center;
 }
