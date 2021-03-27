@@ -82,13 +82,14 @@ h1 {
 /* .feature-box */
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 
 /* #features */
 p {
     color: #8f8f8f;
+    font-size: 2rem;
 }
 
 .icon {
