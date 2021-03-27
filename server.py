@@ -13,7 +13,8 @@ def home():
 
 @app.route("/codeply/<page>")
 def codeply(page):
-    return render_template(f"/codeply/{page}.html")
+    reload = time.time()
+    return render_template(f"/codeply/{page}.html", reload=reload)
 
 
 if __name__ == "__main__":
