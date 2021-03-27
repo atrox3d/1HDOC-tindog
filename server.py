@@ -1,12 +1,14 @@
 from flask import Flask, render_template
 import util.network
+import time
 
 app = Flask(__name__)
 
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    reload = time.time()
+    return render_template("index.html", reload=reload)
 
 
 if __name__ == "__main__":
