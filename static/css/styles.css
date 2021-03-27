@@ -89,7 +89,8 @@ h3 {
 /* #features */
 p {
     color: #8f8f8f;
-    font-size: 2rem;
+    /* https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/ */
+    font-size: calc(100% + 0.8vw + 0.8vh);
 }
 
 .icon {
