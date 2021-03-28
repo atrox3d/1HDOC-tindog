@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Selector priority</title>
+<!--        <link rel="stylesheet" href="/static/css/selector-priority.css?reload={{ reload }}">-->
+        <style>
+            h1 {
+                color: red;
+            }
+
+            #heading {
+                color: yellow;
+            }
+
+            .title {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="heading" class="title" style="color:orange;">hello</h1>
+        <h2>css priorities:</h2>
+        <p>inline style=""</p>
+        <p>#id {}</p>
+        <p>.class {}</p>
+        <p>tag {}</p>
+    </body>
+</html>
